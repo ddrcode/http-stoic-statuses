@@ -1,6 +1,6 @@
 # HTTP Stoic Statuses
 
-**`http-stoic-statuses`** is a metaphysical error-handling layer for APIs, websites, and machines that deserve better than a mere number. Instead of dry HTTP responses, this project returns meaningful, philosophical Latin reflections depending on the status code — all from the point of view of a chosen ancient thinker.
+**`http-stoic-statuses`** is a metaphysical error-handling layer for APIs, websites, and machines that deserve better than a mere number. Instead of dry HTTP responses, this project returns meaningful, philosophical Latin reflections depending on the status code – all from the point of view of a chosen ancient thinker.
 
 > Because sometimes, *404 Not Found* just isn't enough.
 
@@ -23,12 +23,12 @@ Choose your responder:
 Each status has unique responses per philosopher:
 
 - `200 OK` — *Actum est.* / *It is done.*
-- `403 Forbidden` — *Scimus te. Et tamen: non.* / *We know you. And yet: no.*
-- `404 Not Found` — *Inquiris quod non est.* / *You seek what is not.*
-- `418 I'm a Teapot` — *Amphora sum, non machina.* / *I am a jug, not a machine.*
-- `500 Internal Server Error` — *Chaos regnat intra.* / *Chaos reigns within.*
+- `403 Forbidden` – *Scimus te. Et tamen: non.* / *We know you. And yet: no.*
+- `404 Not Found` – *Inquiris quod non est.* / *You seek what is not.*
+- `418 I'm a Teapot` – *Amphora sum, non machina.* / *I am a jug, not a machine.*
+- `500 Internal Server Error` - *Chaos regnat intra.* / *Chaos reigns within.*
 
-...and more to come.
+See all in the [json file](./statuses.json)...
 
 ---
 
