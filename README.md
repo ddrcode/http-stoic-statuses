@@ -32,7 +32,7 @@ Each status has unique responses per philosopher:
 
 ---
 
-## ⚙Format
+## Format
 
 All definitions are stored in a single eternal `json` file:
 
