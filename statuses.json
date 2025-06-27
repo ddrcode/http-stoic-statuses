@@ -1,0 +1,181 @@
+{
+  "philosophers": [
+    {
+      "id": "seneca",
+      "name": "Lucius Annaeus Seneca (Younger)",
+      "tone": "stoic, contemplative, calm, occasionally sorrowful"
+    },
+    {
+      "id": "diogenes",
+      "name": "Diogenes of Sinope",
+      "tone": "cynical, provocative, ironic, blunt"
+    },
+    {
+      "id": "plotinus",
+      "name": "Plotinus",
+      "tone": "mystical, abstract, cosmic, metaphysical"
+    }
+  ],
+  "statuses": {
+    "200": {
+      "label": "OK",
+      "responses": {
+        "seneca": {
+          "latin": "Actum est.",
+          "english": "It is done."
+        },
+        "diogenes": {
+          "latin": "Etiam caecus hoc videt.",
+          "english": "Even a blind man sees this."
+        },
+        "plotinus": {
+          "latin": "Effectus manifestatur in uno.",
+          "english": "The effect reveals itself in the One."
+        }
+      }
+    },
+    "201": {
+      "label": "Created",
+      "responses": {
+        "seneca": {
+          "latin": "Ex nihilo aliquid fit.",
+          "english": "Something has come from nothing."
+        },
+        "diogenes": {
+          "latin": "Natum est, sed quis id petivit?",
+          "english": "It is born, but who asked for it?"
+        },
+        "plotinus": {
+          "latin": "Nova emanatio ex uno radiat.",
+          "english": "A new emanation radiates from the One."
+        }
+      }
+    },
+    "301": {
+      "label": "Moved Permanently",
+      "responses": {
+        "seneca": {
+          "latin": "Via mutata est, sed propositum idem.",
+          "english": "The path has changed, but the goal remains."
+        },
+        "diogenes": {
+          "latin": "Nunc ibi est. Habes pedes, quaere.",
+          "english": "Now it's there. You have feet, go look."
+        },
+        "plotinus": {
+          "latin": "Locus mutatus est; essentia manet.",
+          "english": "The place has shifted; the essence remains."
+        }
+      }
+    },
+    "403": {
+      "label": "Forbidden",
+      "responses": {
+        "seneca": {
+          "latin": "Scimus te. Et tamen: non.",
+          "english": "We know you. And yet: no."
+        },
+        "diogenes": {
+          "latin": "Tollite manum tuam de meo pane.",
+          "english": "Take your hand off my bread."
+        },
+        "plotinus": {
+          "latin": "Accessus ad unum negatur, forma imperfecta est.",
+          "english": "Access to the One is denied; your form is incomplete."
+        }
+      }
+    },
+    "404": {
+      "label": "Not Found",
+      "responses": {
+        "seneca": {
+          "latin": "Inquiris quod non est.",
+          "english": "You seek what is not."
+        },
+        "diogenes": {
+          "latin": "Fortasse sub lecto est. Videbasne?",
+          "english": "Maybe it's under the bed. Did you look?"
+        },
+        "plotinus": {
+          "latin": "Quod quaeris, extra ambitum est sensibilis mundi.",
+          "english": "What you seek lies beyond the realm of the sensible world."
+        }
+      }
+    },
+    "418": {
+      "label": "I'm a teapot",
+      "responses": {
+        "seneca": {
+          "latin": "Non omnia sunt quae videntur.",
+          "english": "Not all is what it seems."
+        },
+        "diogenes": {
+          "latin": "Amphora sum, non machina.",
+          "english": "I'm a jug, not a machine."
+        },
+        "plotinus": {
+          "latin": "Materia huius rei liquorem non transit.",
+          "english": "The matter of this entity transmits no liquid."
+        }
+      }
+    },
+    "429": {
+      "label": "Too Many Requests",
+      "responses": {
+        "seneca": {
+          "latin": "Temperantia necessaria est.",
+          "english": "Temperance is necessary."
+        },
+        "diogenes": {
+          "latin": "Sufficit. Quaere aliquid aliud.",
+          "english": "Enough. Go seek something else."
+        },
+        "plotinus": {
+          "latin": "Fluxus voluntatum unitatem impedit.",
+          "english": "The flow of desires impedes unity."
+        }
+      }
+    },
+    "500": {
+      "label": "Internal Server Error",
+      "responses": {
+        "seneca": {
+          "latin": "Chaos regnat intra.",
+          "english": "Chaos reigns within."
+        },
+        "diogenes": {
+          "latin": "Ne me respice. Ego nihil feci.",
+          "english": "Don't look at me. I did nothing."
+        },
+        "plotinus": {
+          "latin": "Nodus inter causam et effectum disruptus est.",
+          "english": "The bond between cause and effect has been severed."
+        }
+      }
+    },
+    "503": {
+      "label": "Service Unavailable",
+      "responses": {
+        "seneca": {
+          "latin": "Tempus nondum venit.",
+          "english": "The time has not yet come."
+        },
+        "diogenes": {
+          "latin": "Dormit. Revertere post meridiem.",
+          "english": "It sleeps. Return after lunch."
+        },
+        "plotinus": {
+          "latin": "Motus superioris ordinis nunc cessat.",
+          "english": "The movement of the higher order has ceased for now."
+        }
+      }
+    }
+  },
+  "meta": {
+    "generated_by": "http-philosophicus-engine v0.1-alpha",
+    "language": "latin + english",
+    "format": "eternal JSON / ready for inscription",
+    "recommended_engraving_surface": "marble or basalt slab",
+    "blessing": "miraculum operatur"
+  }
+}
